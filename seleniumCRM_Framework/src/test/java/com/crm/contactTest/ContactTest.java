@@ -13,5 +13,9 @@ public class ContactTest {
 	public void modifyContactTest() {
 		System.out.println("execute modifyContactTest");
 	}
-
+	
+	@Test(groups = "regressionTest")
+	public void updateContactTest() {
+		System.out.println("execute updateContactTest");
+	}
 }
