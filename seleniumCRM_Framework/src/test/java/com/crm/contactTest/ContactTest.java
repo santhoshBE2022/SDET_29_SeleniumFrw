@@ -18,4 +18,10 @@ public class ContactTest {
 	public void updateContactTest() {
 		System.out.println("execute updateContactTest");
 	}
+	
+	@Test(groups = "regressionTest")
+	public void eraseContactTest() {
+	System.out.println("execute updateContactTest");
+
+	}
 }
